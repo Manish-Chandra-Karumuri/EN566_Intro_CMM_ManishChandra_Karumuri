@@ -12,13 +12,13 @@
 # Specify the error file for standard error
 #SBATCH --error=ising_job_%j.err
 # Set the maximum running time (e.g., 30 minutes)
-#SBATCH --time=10:30:00
+#SBATCH --time=00:30:00
 #SBATCH --partition=shared
 # Request 1 task (process)
 #SBATCH --ntasks=1
 # Request 1 CPU core for the task
 #SBATCH --cpus-per-task=1
-# Request 2 Gigabytes of memory for the job
+# Request 4 Gigabytes of memory for the job
 #SBATCH --mem=2G
 # Email address for notification
 #SBATCH --mail-user=mkarumu1@jh.edu
@@ -27,16 +27,10 @@
 
 # --- Execution Environment Setup ---
 
-# Navigate to the directory where you submitted the job
-cd $SLURM_SUBMIT_DIR
 
-echo "Job started on $(date)"
-echo "Working directory: $(pwd)"
 
-# 1. Load the required dependencies in order:
-# We must load the core environment (gfbf/2023a) before loading the extension (matplotlib).
-module load gfbf/2023a
-module load matplotlib/3.7.2-gfbf-2023a
+module load python
+module load matplotlib
 
 # 2. Run the main command
 echo "Executing: python ising.py --part=2"
