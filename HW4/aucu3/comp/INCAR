@@ -1,0 +1,18 @@
+# Cu3Au (L12) relax
+PREC   = Normal
+ENCUT  = 300        
+EDIFF  = 1E-5
+EDIFFG = -0.03
+IBRION = 2
+NSW    = 40
+ISIF   = 3
+ISMEAR = 1       
+SIGMA  = 0.2
+ALGO   = All     
+AMIX   = 0.02    
+BMIX   = 0.0001  
+LREAL  = Auto    
+NELM   = 80
+ISYM   = 2
+LWAVE  = .FALSE.
+LCHARG = .TRUE.

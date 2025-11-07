@@ -1,0 +1,7 @@
+System = Si (diamond) 
+PREC   = Accurate
+ENCUT  = 300      
+ISMEAR = -5       
+EDIFF  = 1E-6
+LWAVE  = .FALSE.
+LCHARG = .TRUE.

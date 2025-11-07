@@ -1,0 +1,413 @@
+XXXXX  KBIN DIRECTORY BEGIN (aflow3.2.14.s4e.1.0)   - [dir=/scratch4/en510/hw_mysol/partIII/q6_a/AFLOWDATA/AsGa_hIn_d/AB_cF8_216_c_a.AB:POCC_P0-0.5xB-0.5xC_P1-1xA] - [user=en510-mkarumu1] - [host=login01] - [PID=836977] - [date=Thu Nov  6 19:11:34 2025] - [aflow_kbin.cpp:1402]
+XXXXX  KBIN AFLOWIN=aflow.in
+XXXXX  KBIN AFLOWLOCK=LOCK
+XXXXX  KBIN AFLOWENDOUT=aflow.end.out
+XXXXX  KBIN XHOST.CPU_Model : Intel(R)_Xeon(R)_Gold_6248R_CPU_@_3.00GHz
+XXXXX  KBIN XHOST.CPU_Cores : 48
+XXXXX  KBIN XHOST.CPU_MHz   : 3000
+XXXXX  KBIN XHOST.RAM_GB    : 188
+00000  MESSAGE POCC_CALCULATION  - [dir=/scratch4/en510/hw_mysol/partIII/q6_a/AFLOWDATA/AsGa_hIn_d/AB_cF8_216_c_a.AB:POCC_P0-0.5xB-0.5xC_P1-1xA] - [user=en510-mkarumu1] - [host=login01] - [PID=836977] - [date=Thu Nov  6 19:11:34 2025] - [aflow_kvasp.cpp:474]
+00000  MESSAGE POCC_TEMPERATURE_STRING=0:2400:300 - [dir=/scratch4/en510/hw_mysol/partIII/q6_a/AFLOWDATA/AsGa_hIn_d/AB_cF8_216_c_a.AB:POCC_P0-0.5xB-0.5xC_P1-1xA] - [user=en510-mkarumu1] - [host=login01] - [PID=836977] - [date=Thu Nov  6 19:11:34 2025] - [aflow_kvasp.cpp:483]
+00000  MESSAGE Taking KZIP_BIN="xz "  - [dir=/scratch4/en510/hw_mysol/partIII/q6_a/AFLOWDATA/AsGa_hIn_d/AB_cF8_216_c_a.AB:POCC_P0-0.5xB-0.5xC_P1-1xA] - [user=en510-mkarumu1] - [host=login01] - [PID=836977] - [date=Thu Nov  6 19:11:34 2025] - [aflow_kvasp.cpp:565]
+00000  MESSAGE [AFLOW_MODE=VASP] found in aflow.in  - [dir=/scratch4/en510/hw_mysol/partIII/q6_a/AFLOWDATA/AsGa_hIn_d/AB_cF8_216_c_a.AB:POCC_P0-0.5xB-0.5xC_P1-1xA] - [user=en510-mkarumu1] - [host=login01] - [PID=836977] - [date=Thu Nov  6 19:11:34 2025] - [aflow_kvasp.cpp:692]
+00000  MESSAGE Taking KBIN_BIN="vasp_std "  - [dir=/scratch4/en510/hw_mysol/partIII/q6_a/AFLOWDATA/AsGa_hIn_d/AB_cF8_216_c_a.AB:POCC_P0-0.5xB-0.5xC_P1-1xA] - [user=en510-mkarumu1] - [host=login01] - [PID=836977] - [date=Thu Nov  6 19:11:34 2025] - [aflow_kvasp.cpp:721]
+XXXXX  KBIN DIRECTORY END (aflow3.2.14.s4e.1.0)   - [dir=/scratch4/en510/hw_mysol/partIII/q6_a/AFLOWDATA/AsGa_hIn_d/AB_cF8_216_c_a.AB:POCC_P0-0.5xB-0.5xC_P1-1xA] - [user=en510-mkarumu1] - [host=login01] - [PID=836977] - [date=Thu Nov  6 19:11:34 2025] - [aflow_kbin.cpp:1432]
+XXXXX  KBIN_DIRECTORY_END /scratch4/en510/hw_mysol/partIII/q6_a/AFLOWDATA/AsGa_hIn_d/AB_cF8_216_c_a.AB:POCC_P0-0.5xB-0.5xC_P1-1xA
+00000  MESSAGE KBIN::VASP_Directory Running KBIN_BIN="vasp_std " - [dir=/scratch4/en510/hw_mysol/partIII/q6_a/AFLOWDATA/AsGa_hIn_d/AB_cF8_216_c_a.AB:POCC_P0-0.5xB-0.5xC_P1-1xA] - [user=en510-mkarumu1] - [host=login01] - [PID=836977] - [date=Thu Nov  6 19:11:34 2025] - [aflow_kvasp.cpp:1836]
+00000  MESSAGE KBIN::VASP_Directory Running POCC_CALCULATION - [dir=/scratch4/en510/hw_mysol/partIII/q6_a/AFLOWDATA/AsGa_hIn_d/AB_cF8_216_c_a.AB:POCC_P0-0.5xB-0.5xC_P1-1xA] - [user=en510-mkarumu1] - [host=login01] - [PID=836977] - [date=Thu Nov  6 19:11:34 2025] - [aflow_kvasp.cpp:1840]
+00000  MESSAGE Performing loop directory = /scratch4/en510/hw_mysol/partIII/q6_a/AFLOWDATA/AsGa_hIn_d/AB_cF8_216_c_a.AB:POCC_P0-0.5xB-0.5xC_P1-1xA - [dir=/scratch4/en510/hw_mysol/partIII/q6_a/AFLOWDATA/AsGa_hIn_d/AB_cF8_216_c_a.AB:POCC_P0-0.5xB-0.5xC_P1-1xA] - [user=en510-mkarumu1] - [host=login01] - [PID=836977] - [date=Thu Nov  6 19:11:34 2025] - [aflow_kvasp.cpp:1927]
+00000  MESSAGE PERFORMING POCC_CALCULATION - [dir=/scratch4/en510/hw_mysol/partIII/q6_a/AFLOWDATA/AsGa_hIn_d/AB_cF8_216_c_a.AB:POCC_P0-0.5xB-0.5xC_P1-1xA] - [user=en510-mkarumu1] - [host=login01] - [PID=836977] - [date=Thu Nov  6 19:11:34 2025] - [aflow_kvasp.cpp:2095]
+00000  MESSAGE pocc::POccCalculator::initializePOccStructure(): Input PARTCAR - [dir=/scratch4/en510/hw_mysol/partIII/q6_a/AFLOWDATA/AsGa_hIn_d/AB_cF8_216_c_a.AB:POCC_P0-0.5xB-0.5xC_P1-1xA] - [user=en510-mkarumu1] - [host=login01] - [PID=836977] - [date=Thu Nov  6 19:11:34 2025] - [aflow_pocc.cpp:7675]
+AsGa_hIn_d/AB_cF8_216_c_a.AB:POCC_P0-0.5xB-0.5xC_P1-1xA params=-1 SG=216 [ANRL doi: 10.1016/j.commatsci.2017.01.017 (part 1), doi: 10.1016/j.commatsci.2018.10.043 (part 2)]
+-42.281300 0.001 0.001
+   0.00000000000000   0.50000000000000   0.50000000000000
+   0.50000000000000   0.00000000000000   0.50000000000000
+   0.50000000000000   0.50000000000000   0.00000000000000
+1*1 1*0.5 1*0.5 
+Direct(3) Partial [A1B0.5C0.5] 
+   0.00000000000000   0.00000000000000   0.00000000000000  As    pocc=1  
+   0.25000000000000   0.25000000000000   0.25000000000000  Ga_h  pocc=0.5  
+   0.25000000000000   0.25000000000000   0.25000000000000  In_d  pocc=0.5  
+00000  MESSAGE pocc::POccCalculator::initializePOccStructure(): Clean PARTCAR - [dir=/scratch4/en510/hw_mysol/partIII/q6_a/AFLOWDATA/AsGa_hIn_d/AB_cF8_216_c_a.AB:POCC_P0-0.5xB-0.5xC_P1-1xA] - [user=en510-mkarumu1] - [host=login01] - [PID=836977] - [date=Thu Nov  6 19:11:34 2025] - [aflow_pocc.cpp:7713]
+AsGa_hIn_d/AB_cF8_216_c_a.AB:POCC_P0-0.5xB-0.5xC_P1-1xA params=-1 SG=216 [ANRL doi: 10.1016/j.commatsci.2017.01.017 (part 1), doi: 10.1016/j.commatsci.2018.10.043 (part 2)]
+1.000000 0.001 0.001
+   0.00000000000000   2.76506988390308   2.76506988390308
+   2.76506988390308   0.00000000000000   2.76506988390308
+   2.76506988390308   2.76506988390308   0.00000000000000
+1*1 1*0.5 1*0.5 
+Direct(3) Partial [A1B0.5C0.5] 
+   0.00000000000000   0.00000000000000   0.00000000000000  As    pocc=1  
+   0.25000000000000   0.25000000000000   0.25000000000000  Ga_h  pocc=0.5  
+   0.25000000000000   0.25000000000000   0.25000000000000  In_d  pocc=0.5  
+00000  MESSAGE pocc::POccCalculator::initializePOccStructure(): Parent structure - [dir=/scratch4/en510/hw_mysol/partIII/q6_a/AFLOWDATA/AsGa_hIn_d/AB_cF8_216_c_a.AB:POCC_P0-0.5xB-0.5xC_P1-1xA] - [user=en510-mkarumu1] - [host=login01] - [PID=836977] - [date=Thu Nov  6 19:11:34 2025] - [aflow_pocc.cpp:7716]
+Parent structure
+1.000000
+   0.00000000000000   2.66773672333737   2.66773672333737
+   2.66773672333737   0.00000000000000   2.66773672333737
+   2.66773672333737   2.66773672333737   0.00000000000000
+1 1 
+Direct(2) [A1B1] 
+   0.00000000000000   0.00000000000000   0.00000000000000  As    
+   0.25000000000000   0.25000000000000   0.25000000000000  Ga_h  
+00000  MESSAGE pocc::POccCalculator::initializePOccStructure(): Standardized (re-decorated) parent structure - [dir=/scratch4/en510/hw_mysol/partIII/q6_a/AFLOWDATA/AsGa_hIn_d/AB_cF8_216_c_a.AB:POCC_P0-0.5xB-0.5xC_P1-1xA] - [user=en510-mkarumu1] - [host=login01] - [PID=836977] - [date=Thu Nov  6 19:11:34 2025] - [aflow_pocc.cpp:7721]
+Standardized (re-decorated) parent structure
+1.000000
+   0.00000000000000   2.62286296212506   2.62286296212506
+   2.62286296212506   0.00000000000000   2.62286296212506
+   2.62286296212506   2.62286296212506   0.00000000000000
+1 1 
+Direct(2) [A1B1] 
+   0.00000000000000   0.00000000000000   0.00000000000000  Sc    
+   0.25000000000000   0.25000000000000   0.25000000000000  Cr    
+00000  MESSAGE pocc::POccCalculator::calculateSymNonPOccStructure(): Calculating symmetry of parent structure - [dir=/scratch4/en510/hw_mysol/partIII/q6_a/AFLOWDATA/AsGa_hIn_d/AB_cF8_216_c_a.AB:POCC_P0-0.5xB-0.5xC_P1-1xA] - [user=en510-mkarumu1] - [host=login01] - [PID=836977] - [date=Thu Nov  6 19:11:34 2025] - [aflow_pocc.cpp:8476]
+00000  MESSAGE Symmetry: starting tolerance 0.0227147  - [dir=/scratch4/en510/hw_mysol/partIII/q6_a/AFLOWDATA/AsGa_hIn_d/AB_cF8_216_c_a.AB:POCC_P0-0.5xB-0.5xC_P1-1xA] - [user=en510-mkarumu1] - [host=login01] - [PID=836977] - [date=Thu Nov  6 19:11:34 2025] - [aflow_aconvasp_main.cpp:6325]
+00000  MESSAGE PGROUP Symmetry: BEGIN  - [dir=/scratch4/en510/hw_mysol/partIII/q6_a/AFLOWDATA/AsGa_hIn_d/AB_cF8_216_c_a.AB:POCC_P0-0.5xB-0.5xC_P1-1xA] - [user=en510-mkarumu1] - [host=login01] - [PID=836977] - [date=Thu Nov  6 19:11:34 2025] - [aflow_symmetry.cpp:4336]
+00000  MESSAGE PGROUP Symmetry: inside sphere, dimensions = [3,3,3]   radius=9.08586   - [dir=/scratch4/en510/hw_mysol/partIII/q6_a/AFLOWDATA/AsGa_hIn_d/AB_cF8_216_c_a.AB:POCC_P0-0.5xB-0.5xC_P1-1xA] - [user=en510-mkarumu1] - [host=login01] - [PID=836977] - [date=Thu Nov  6 19:11:34 2025] - [aflow_symmetry.cpp:4400]
+00000  MESSAGE PGROUP Symmetry: found 12 vectors inside radius - [dir=/scratch4/en510/hw_mysol/partIII/q6_a/AFLOWDATA/AsGa_hIn_d/AB_cF8_216_c_a.AB:POCC_P0-0.5xB-0.5xC_P1-1xA] - [user=en510-mkarumu1] - [host=login01] - [PID=836977] - [date=Thu Nov  6 19:11:34 2025] - [aflow_symmetry.cpp:4445]
+00000  MESSAGE PGROUP unity I        theta=  0  r=( 0.0000e+00  0.0000e+00  0.0000e+00)    HM= 1    S= 1
+00000  MESSAGE PGROUP rotoinversion  theta=180  r=( 7.4506e-09 -7.0711e-01  7.0711e-01)    HM=-2    S=S2
+00000  MESSAGE PGROUP rotation       theta=180  r=( 7.4506e-09  7.0711e-01  7.0711e-01)    HM= 2    S=C2
+00000  MESSAGE PGROUP rotoinversion  theta=180  r=(-1.0000e+00  7.4506e-09  7.4506e-09)    HM= m    S= s
+00000  MESSAGE PGROUP rotoinversion  theta=180  r=(-7.0711e-01  7.0711e-01  7.4506e-09)    HM=-2    S=S2
+00000  MESSAGE PGROUP rotation       theta=240  r=( 5.7735e-01  5.7735e-01  5.7735e-01)    HM= 3    S=C3
+00000  MESSAGE PGROUP rotoinversion  theta=240  r=(-5.7735e-01 -5.7735e-01  5.7735e-01)    HM=-3    S=S3
+00000  MESSAGE PGROUP rotation       theta= 90  r=( 0.0000e+00  0.0000e+00  1.0000e+00)    HM= 4    S=C4
+00000  MESSAGE PGROUP rotation       theta=120  r=( 5.7735e-01  5.7735e-01  5.7735e-01)    HM= 3    S=C3
+00000  MESSAGE PGROUP rotoinversion  theta=180  r=(-7.0711e-01 -7.4506e-09  7.0711e-01)    HM=-2    S=S2
+00000  MESSAGE PGROUP rotation       theta= 90  r=( 0.0000e+00 -1.0000e+00  0.0000e+00)    HM= 4    S=C4
+00000  MESSAGE PGROUP rotoinversion  theta=240  r=( 5.7735e-01 -5.7735e-01  5.7735e-01)    HM=-3    S=S3
+00000  MESSAGE PGROUP rotation       theta=180  r=(-1.0000e+00  7.4506e-09  7.4506e-09)    HM= 2    S=C2
+00000  MESSAGE PGROUP rotoinversion  theta=180  r=( 7.4506e-09  7.0711e-01  7.0711e-01)    HM=-2    S=S2
+00000  MESSAGE PGROUP inversion -I   theta=  0  r=( 0.0000e+00  0.0000e+00  0.0000e+00)    HM=-1    S= i
+00000  MESSAGE PGROUP rotation       theta=180  r=( 7.4506e-09 -7.0711e-01  7.0711e-01)    HM= 2    S=C2
+00000  MESSAGE PGROUP rotoinversion  theta=120  r=(-5.7735e-01  5.7735e-01  5.7735e-01)    HM=-3    S=S3
+00000  MESSAGE PGROUP rotoinversion  theta=270  r=(-0.0000e+00 -0.0000e+00  1.0000e+00)    HM=-4    S=S4
+00000  MESSAGE PGROUP rotation       theta=120  r=( 5.7735e-01 -5.7735e-01  5.7735e-01)    HM= 3    S=C3
+00000  MESSAGE PGROUP rotation       theta=180  r=( 7.0711e-01  7.0711e-01  7.4506e-09)    HM= 2    S=C2
+00000  MESSAGE PGROUP rotation       theta=180  r=( 7.0711e-01  7.4506e-09  7.0711e-01)    HM= 2    S=C2
+00000  MESSAGE PGROUP rotation       theta=120  r=(-5.7735e-01 -5.7735e-01  5.7735e-01)    HM= 3    S=C3
+00000  MESSAGE PGROUP rotoinversion  theta= 90  r=( 0.0000e+00  1.0000e+00  0.0000e+00)    HM=-4    S=S4
+00000  MESSAGE PGROUP rotoinversion  theta=240  r=(-5.7735e-01  5.7735e-01  5.7735e-01)    HM=-3    S=S3
+00000  MESSAGE PGROUP rotation       theta=180  r=(-7.0711e-01  7.0711e-01  7.4506e-09)    HM= 2    S=C2
+00000  MESSAGE PGROUP rotoinversion  theta= 90  r=( 0.0000e+00  0.0000e+00  1.0000e+00)    HM=-4    S=S4
+00000  MESSAGE PGROUP rotoinversion  theta=240  r=( 5.7735e-01  5.7735e-01  5.7735e-01)    HM=-3    S=S3
+00000  MESSAGE PGROUP rotation       theta=240  r=(-5.7735e-01 -5.7735e-01  5.7735e-01)    HM= 3    S=C3
+00000  MESSAGE PGROUP rotation       theta= 90  r=( 1.0000e+00  0.0000e+00  0.0000e+00)    HM= 4    S=C4
+00000  MESSAGE PGROUP rotoinversion  theta=180  r=(-7.4506e-09 -7.4506e-09  1.0000e+00)    HM= m    S= s
+00000  MESSAGE PGROUP rotation       theta=180  r=(-7.4506e-09  1.0000e+00  7.4506e-09)    HM= 2    S=C2
+00000  MESSAGE PGROUP rotoinversion  theta= 90  r=(-1.0000e+00  0.0000e+00  0.0000e+00)    HM=-4    S=S4
+00000  MESSAGE PGROUP rotoinversion  theta=120  r=( 5.7735e-01  5.7735e-01  5.7735e-01)    HM=-3    S=S3
+00000  MESSAGE PGROUP rotation       theta=180  r=(-7.0711e-01 -7.4506e-09  7.0711e-01)    HM= 2    S=C2
+00000  MESSAGE PGROUP rotation       theta=240  r=( 5.7735e-01 -5.7735e-01  5.7735e-01)    HM= 3    S=C3
+00000  MESSAGE PGROUP rotoinversion  theta= 90  r=( 0.0000e+00 -1.0000e+00  0.0000e+00)    HM=-4    S=S4
+00000  MESSAGE PGROUP rotoinversion  theta=180  r=(-7.4506e-09  1.0000e+00  7.4506e-09)    HM= m    S= s
+00000  MESSAGE PGROUP rotation       theta= 90  r=(-1.0000e+00  0.0000e+00  0.0000e+00)    HM= 4    S=C4
+00000  MESSAGE PGROUP rotoinversion  theta= 90  r=( 1.0000e+00  0.0000e+00  0.0000e+00)    HM=-4    S=S4
+00000  MESSAGE PGROUP rotation       theta=180  r=(-7.4506e-09 -7.4506e-09  1.0000e+00)    HM= 2    S=C2
+00000  MESSAGE PGROUP rotoinversion  theta=120  r=(-5.7735e-01 -5.7735e-01  5.7735e-01)    HM=-3    S=S3
+00000  MESSAGE PGROUP rotoinversion  theta=180  r=( 7.0711e-01  7.4506e-09  7.0711e-01)    HM=-2    S=S2
+00000  MESSAGE PGROUP rotation       theta=240  r=(-5.7735e-01  5.7735e-01  5.7735e-01)    HM= 3    S=C3
+00000  MESSAGE PGROUP rotation       theta= 90  r=( 0.0000e+00  1.0000e+00  0.0000e+00)    HM= 4    S=C4
+00000  MESSAGE PGROUP rotation       theta=270  r=(-0.0000e+00 -0.0000e+00  1.0000e+00)    HM= 4    S=C4
+00000  MESSAGE PGROUP rotation       theta=120  r=(-5.7735e-01  5.7735e-01  5.7735e-01)    HM= 3    S=C3
+00000  MESSAGE PGROUP rotoinversion  theta=180  r=( 7.0711e-01  7.0711e-01  7.4506e-09)    HM=-2    S=S2
+00000  MESSAGE PGROUP rotoinversion  theta=120  r=( 5.7735e-01 -5.7735e-01  5.7735e-01)    HM=-3    S=S3
+00000  MESSAGE PGROUP Symmetry: unique point group operations 48
+00000  MESSAGE PGROUP Symmetry: END 
+00000  MESSAGE PGROUP_KLATTICE Symmetry: BEGIN  - [dir=/scratch4/en510/hw_mysol/partIII/q6_a/AFLOWDATA/AsGa_hIn_d/AB_cF8_216_c_a.AB:POCC_P0-0.5xB-0.5xC_P1-1xA] - [user=en510-mkarumu1] - [host=login01] - [PID=836977] - [date=Thu Nov  6 19:11:34 2025] - [aflow_symmetry.cpp:5070]
+00000  MESSAGE PGROUP_KLATTICE unity I        theta=  0  r=( 0.0000e+00  0.0000e+00  0.0000e+00)    HM= 1    S= 1
+00000  MESSAGE PGROUP_KLATTICE rotoinversion  theta=180  r=( 7.4506e-09 -7.0711e-01  7.0711e-01)    HM=-2    S=S2
+00000  MESSAGE PGROUP_KLATTICE rotation       theta=180  r=( 7.4506e-09  7.0711e-01  7.0711e-01)    HM= 2    S=C2
+00000  MESSAGE PGROUP_KLATTICE rotoinversion  theta=180  r=(-1.0000e+00  7.4506e-09  7.4506e-09)    HM= m    S= s
+00000  MESSAGE PGROUP_KLATTICE rotoinversion  theta=180  r=(-7.0711e-01  7.0711e-01  7.4506e-09)    HM=-2    S=S2
+00000  MESSAGE PGROUP_KLATTICE rotation       theta=240  r=( 5.7735e-01  5.7735e-01  5.7735e-01)    HM= 3    S=C3
+00000  MESSAGE PGROUP_KLATTICE rotoinversion  theta=240  r=(-5.7735e-01 -5.7735e-01  5.7735e-01)    HM=-3    S=S3
+00000  MESSAGE PGROUP_KLATTICE rotation       theta= 90  r=( 0.0000e+00  0.0000e+00  1.0000e+00)    HM= 4    S=C4
+00000  MESSAGE PGROUP_KLATTICE rotation       theta=120  r=( 5.7735e-01  5.7735e-01  5.7735e-01)    HM= 3    S=C3
+00000  MESSAGE PGROUP_KLATTICE rotoinversion  theta=180  r=(-7.0711e-01 -7.4506e-09  7.0711e-01)    HM=-2    S=S2
+00000  MESSAGE PGROUP_KLATTICE rotation       theta= 90  r=( 0.0000e+00 -1.0000e+00  0.0000e+00)    HM= 4    S=C4
+00000  MESSAGE PGROUP_KLATTICE rotoinversion  theta=240  r=( 5.7735e-01 -5.7735e-01  5.7735e-01)    HM=-3    S=S3
+00000  MESSAGE PGROUP_KLATTICE rotation       theta=180  r=(-1.0000e+00  7.4506e-09  7.4506e-09)    HM= 2    S=C2
+00000  MESSAGE PGROUP_KLATTICE rotoinversion  theta=180  r=( 7.4506e-09  7.0711e-01  7.0711e-01)    HM=-2    S=S2
+00000  MESSAGE PGROUP_KLATTICE inversion -I   theta=  0  r=( 0.0000e+00  0.0000e+00  0.0000e+00)    HM=-1    S= i
+00000  MESSAGE PGROUP_KLATTICE rotation       theta=180  r=( 7.4506e-09 -7.0711e-01  7.0711e-01)    HM= 2    S=C2
+00000  MESSAGE PGROUP_KLATTICE rotoinversion  theta=120  r=(-5.7735e-01  5.7735e-01  5.7735e-01)    HM=-3    S=S3
+00000  MESSAGE PGROUP_KLATTICE rotoinversion  theta=270  r=(-0.0000e+00 -0.0000e+00  1.0000e+00)    HM=-4    S=S4
+00000  MESSAGE PGROUP_KLATTICE rotation       theta=120  r=( 5.7735e-01 -5.7735e-01  5.7735e-01)    HM= 3    S=C3
+00000  MESSAGE PGROUP_KLATTICE rotation       theta=180  r=( 7.0711e-01  7.0711e-01  7.4506e-09)    HM= 2    S=C2
+00000  MESSAGE PGROUP_KLATTICE rotation       theta=180  r=( 7.0711e-01  7.4506e-09  7.0711e-01)    HM= 2    S=C2
+00000  MESSAGE PGROUP_KLATTICE rotation       theta=120  r=(-5.7735e-01 -5.7735e-01  5.7735e-01)    HM= 3    S=C3
+00000  MESSAGE PGROUP_KLATTICE rotoinversion  theta= 90  r=( 0.0000e+00  1.0000e+00  0.0000e+00)    HM=-4    S=S4
+00000  MESSAGE PGROUP_KLATTICE rotoinversion  theta=240  r=(-5.7735e-01  5.7735e-01  5.7735e-01)    HM=-3    S=S3
+00000  MESSAGE PGROUP_KLATTICE rotation       theta=180  r=(-7.0711e-01  7.0711e-01  7.4506e-09)    HM= 2    S=C2
+00000  MESSAGE PGROUP_KLATTICE rotoinversion  theta= 90  r=( 0.0000e+00  0.0000e+00  1.0000e+00)    HM=-4    S=S4
+00000  MESSAGE PGROUP_KLATTICE rotoinversion  theta=240  r=( 5.7735e-01  5.7735e-01  5.7735e-01)    HM=-3    S=S3
+00000  MESSAGE PGROUP_KLATTICE rotation       theta=240  r=(-5.7735e-01 -5.7735e-01  5.7735e-01)    HM= 3    S=C3
+00000  MESSAGE PGROUP_KLATTICE rotation       theta= 90  r=( 1.0000e+00  0.0000e+00  0.0000e+00)    HM= 4    S=C4
+00000  MESSAGE PGROUP_KLATTICE rotoinversion  theta=180  r=(-7.4506e-09 -7.4506e-09  1.0000e+00)    HM= m    S= s
+00000  MESSAGE PGROUP_KLATTICE rotation       theta=180  r=(-7.4506e-09  1.0000e+00  7.4506e-09)    HM= 2    S=C2
+00000  MESSAGE PGROUP_KLATTICE rotoinversion  theta= 90  r=(-1.0000e+00  0.0000e+00  0.0000e+00)    HM=-4    S=S4
+00000  MESSAGE PGROUP_KLATTICE rotoinversion  theta=120  r=( 5.7735e-01  5.7735e-01  5.7735e-01)    HM=-3    S=S3
+00000  MESSAGE PGROUP_KLATTICE rotation       theta=180  r=(-7.0711e-01 -7.4506e-09  7.0711e-01)    HM= 2    S=C2
+00000  MESSAGE PGROUP_KLATTICE rotation       theta=240  r=( 5.7735e-01 -5.7735e-01  5.7735e-01)    HM= 3    S=C3
+00000  MESSAGE PGROUP_KLATTICE rotoinversion  theta= 90  r=( 0.0000e+00 -1.0000e+00  0.0000e+00)    HM=-4    S=S4
+00000  MESSAGE PGROUP_KLATTICE rotoinversion  theta=180  r=(-7.4506e-09  1.0000e+00  7.4506e-09)    HM= m    S= s
+00000  MESSAGE PGROUP_KLATTICE rotation       theta= 90  r=(-1.0000e+00  0.0000e+00  0.0000e+00)    HM= 4    S=C4
+00000  MESSAGE PGROUP_KLATTICE rotoinversion  theta= 90  r=( 1.0000e+00  0.0000e+00  0.0000e+00)    HM=-4    S=S4
+00000  MESSAGE PGROUP_KLATTICE rotation       theta=180  r=(-7.4506e-09 -7.4506e-09  1.0000e+00)    HM= 2    S=C2
+00000  MESSAGE PGROUP_KLATTICE rotoinversion  theta=120  r=(-5.7735e-01 -5.7735e-01  5.7735e-01)    HM=-3    S=S3
+00000  MESSAGE PGROUP_KLATTICE rotoinversion  theta=180  r=( 7.0711e-01  7.4506e-09  7.0711e-01)    HM=-2    S=S2
+00000  MESSAGE PGROUP_KLATTICE rotation       theta=240  r=(-5.7735e-01  5.7735e-01  5.7735e-01)    HM= 3    S=C3
+00000  MESSAGE PGROUP_KLATTICE rotation       theta= 90  r=( 0.0000e+00  1.0000e+00  0.0000e+00)    HM= 4    S=C4
+00000  MESSAGE PGROUP_KLATTICE rotation       theta=270  r=(-0.0000e+00 -0.0000e+00  1.0000e+00)    HM= 4    S=C4
+00000  MESSAGE PGROUP_KLATTICE rotation       theta=120  r=(-5.7735e-01  5.7735e-01  5.7735e-01)    HM= 3    S=C3
+00000  MESSAGE PGROUP_KLATTICE rotoinversion  theta=180  r=( 7.0711e-01  7.0711e-01  7.4506e-09)    HM=-2    S=S2
+00000  MESSAGE PGROUP_KLATTICE rotoinversion  theta=120  r=( 5.7735e-01 -5.7735e-01  5.7735e-01)    HM=-3    S=S3
+00000  MESSAGE PGROUP_KLATTICE Symmetry: unique point group operations 48
+00000  MESSAGE PGROUP_KLATTICE Symmetry: END 
+00000  MESSAGE FGROUP Symmetry: BEGIN  - [dir=/scratch4/en510/hw_mysol/partIII/q6_a/AFLOWDATA/AsGa_hIn_d/AB_cF8_216_c_a.AB:POCC_P0-0.5xB-0.5xC_P1-1xA] - [user=en510-mkarumu1] - [host=login01] - [PID=836977] - [date=Thu Nov  6 19:11:34 2025] - [aflow_symmetry.cpp:5472]
+00000  MESSAGE FGROUP Symmetry: generating translations 
+00000  MESSAGE FGROUP unity I        theta=  0  r=( 0.0000e+00  0.0000e+00  0.0000e+00)  ftau=( 0.0000e+00  0.0000e+00  0.0000e+00)    basis_atoms_map = [ 0 1 ] 
+00000  MESSAGE FGROUP rotoinversion  theta=180  r=( 7.4506e-09 -7.0711e-01  7.0711e-01)  ftau=( 0.0000e+00  0.0000e+00  0.0000e+00)    basis_atoms_map = [ 0 1 ] 
+00000  MESSAGE FGROUP rotoinversion  theta=180  r=(-7.0711e-01  7.0711e-01  7.4506e-09)  ftau=( 0.0000e+00  0.0000e+00  0.0000e+00)    basis_atoms_map = [ 0 1 ] 
+00000  MESSAGE FGROUP rotation       theta=240  r=( 5.7735e-01  5.7735e-01  5.7735e-01)  ftau=( 0.0000e+00  0.0000e+00  0.0000e+00)    basis_atoms_map = [ 0 1 ] 
+00000  MESSAGE FGROUP rotation       theta=120  r=( 5.7735e-01  5.7735e-01  5.7735e-01)  ftau=( 0.0000e+00  0.0000e+00  0.0000e+00)    basis_atoms_map = [ 0 1 ] 
+00000  MESSAGE FGROUP rotoinversion  theta=180  r=(-7.0711e-01 -7.4506e-09  7.0711e-01)  ftau=( 0.0000e+00  0.0000e+00  0.0000e+00)    basis_atoms_map = [ 0 1 ] 
+00000  MESSAGE FGROUP rotation       theta=180  r=(-1.0000e+00  7.4506e-09  7.4506e-09)  ftau=( 0.0000e+00  0.0000e+00  0.0000e+00)    basis_atoms_map = [ 0 1 ] 
+00000  MESSAGE FGROUP rotoinversion  theta=180  r=( 7.4506e-09  7.0711e-01  7.0711e-01)  ftau=( 0.0000e+00  0.0000e+00  0.0000e+00)    basis_atoms_map = [ 0 1 ] 
+00000  MESSAGE FGROUP rotoinversion  theta=270  r=(-0.0000e+00 -0.0000e+00  1.0000e+00)  ftau=( 0.0000e+00  0.0000e+00  0.0000e+00)    basis_atoms_map = [ 0 1 ] 
+00000  MESSAGE FGROUP rotation       theta=120  r=( 5.7735e-01 -5.7735e-01  5.7735e-01)  ftau=( 0.0000e+00  0.0000e+00  0.0000e+00)    basis_atoms_map = [ 0 1 ] 
+00000  MESSAGE FGROUP rotation       theta=120  r=(-5.7735e-01 -5.7735e-01  5.7735e-01)  ftau=( 0.0000e+00  0.0000e+00  0.0000e+00)    basis_atoms_map = [ 0 1 ] 
+00000  MESSAGE FGROUP rotoinversion  theta= 90  r=( 0.0000e+00  1.0000e+00  0.0000e+00)  ftau=( 0.0000e+00  0.0000e+00  0.0000e+00)    basis_atoms_map = [ 0 1 ] 
+00000  MESSAGE FGROUP rotoinversion  theta= 90  r=( 0.0000e+00  0.0000e+00  1.0000e+00)  ftau=( 0.0000e+00  0.0000e+00  0.0000e+00)    basis_atoms_map = [ 0 1 ] 
+00000  MESSAGE FGROUP rotation       theta=240  r=(-5.7735e-01 -5.7735e-01  5.7735e-01)  ftau=( 0.0000e+00  0.0000e+00  0.0000e+00)    basis_atoms_map = [ 0 1 ] 
+00000  MESSAGE FGROUP rotation       theta=180  r=(-7.4506e-09  1.0000e+00  7.4506e-09)  ftau=( 0.0000e+00  0.0000e+00  0.0000e+00)    basis_atoms_map = [ 0 1 ] 
+00000  MESSAGE FGROUP rotoinversion  theta= 90  r=(-1.0000e+00  0.0000e+00  0.0000e+00)  ftau=( 0.0000e+00  0.0000e+00  0.0000e+00)    basis_atoms_map = [ 0 1 ] 
+00000  MESSAGE FGROUP rotation       theta=240  r=( 5.7735e-01 -5.7735e-01  5.7735e-01)  ftau=( 0.0000e+00  0.0000e+00  0.0000e+00)    basis_atoms_map = [ 0 1 ] 
+00000  MESSAGE FGROUP rotoinversion  theta= 90  r=( 0.0000e+00 -1.0000e+00  0.0000e+00)  ftau=( 0.0000e+00  0.0000e+00  0.0000e+00)    basis_atoms_map = [ 0 1 ] 
+00000  MESSAGE FGROUP rotoinversion  theta= 90  r=( 1.0000e+00  0.0000e+00  0.0000e+00)  ftau=( 0.0000e+00  0.0000e+00  0.0000e+00)    basis_atoms_map = [ 0 1 ] 
+00000  MESSAGE FGROUP rotation       theta=180  r=(-7.4506e-09 -7.4506e-09  1.0000e+00)  ftau=( 0.0000e+00  0.0000e+00  0.0000e+00)    basis_atoms_map = [ 0 1 ] 
+00000  MESSAGE FGROUP rotoinversion  theta=180  r=( 7.0711e-01  7.4506e-09  7.0711e-01)  ftau=( 0.0000e+00  0.0000e+00  0.0000e+00)    basis_atoms_map = [ 0 1 ] 
+00000  MESSAGE FGROUP rotation       theta=240  r=(-5.7735e-01  5.7735e-01  5.7735e-01)  ftau=( 0.0000e+00  0.0000e+00  0.0000e+00)    basis_atoms_map = [ 0 1 ] 
+00000  MESSAGE FGROUP rotation       theta=120  r=(-5.7735e-01  5.7735e-01  5.7735e-01)  ftau=( 0.0000e+00  0.0000e+00  0.0000e+00)    basis_atoms_map = [ 0 1 ] 
+00000  MESSAGE FGROUP rotoinversion  theta=180  r=( 7.0711e-01  7.0711e-01  7.4506e-09)  ftau=( 0.0000e+00  0.0000e+00  0.0000e+00)    basis_atoms_map = [ 0 1 ] 
+00000  MESSAGE FGROUP Symmetry: unique factor group operations 24
+00000  MESSAGE FGROUP Symmetry: END 
+00000  MESSAGE PGROUP_CRYSTAL Symmetry: BEGIN  - [dir=/scratch4/en510/hw_mysol/partIII/q6_a/AFLOWDATA/AsGa_hIn_d/AB_cF8_216_c_a.AB:POCC_P0-0.5xB-0.5xC_P1-1xA] - [user=en510-mkarumu1] - [host=login01] - [PID=836977] - [date=Thu Nov  6 19:11:34 2025] - [aflow_symmetry.cpp:2730]
+00000  MESSAGE PGROUP_XTAL ---------------------------------------------------------------------------
+00000  MESSAGE PGROUP_XTAL unity I        theta=  0  r=( 0.0000e+00  0.0000e+00  0.0000e+00)    HM= 1    S= 1
+00000  MESSAGE PGROUP_XTAL rotoinversion  theta=180  r=( 7.4506e-09 -7.0711e-01  7.0711e-01)    HM=-2    S=S2
+00000  MESSAGE PGROUP_XTAL rotoinversion  theta=180  r=(-7.0711e-01  7.0711e-01  7.4506e-09)    HM=-2    S=S2
+00000  MESSAGE PGROUP_XTAL rotation       theta=240  r=( 5.7735e-01  5.7735e-01  5.7735e-01)    HM= 3    S=C3
+00000  MESSAGE PGROUP_XTAL rotation       theta=120  r=( 5.7735e-01  5.7735e-01  5.7735e-01)    HM= 3    S=C3
+00000  MESSAGE PGROUP_XTAL rotoinversion  theta=180  r=(-7.0711e-01 -7.4506e-09  7.0711e-01)    HM=-2    S=S2
+00000  MESSAGE PGROUP_XTAL rotation       theta=180  r=(-1.0000e+00  7.4506e-09  7.4506e-09)    HM= 2    S=C2
+00000  MESSAGE PGROUP_XTAL rotoinversion  theta=180  r=( 7.4506e-09  7.0711e-01  7.0711e-01)    HM=-2    S=S2
+00000  MESSAGE PGROUP_XTAL rotoinversion  theta=270  r=(-0.0000e+00 -0.0000e+00  1.0000e+00)    HM=-4    S=S4
+00000  MESSAGE PGROUP_XTAL rotation       theta=120  r=( 5.7735e-01 -5.7735e-01  5.7735e-01)    HM= 3    S=C3
+00000  MESSAGE PGROUP_XTAL rotation       theta=120  r=(-5.7735e-01 -5.7735e-01  5.7735e-01)    HM= 3    S=C3
+00000  MESSAGE PGROUP_XTAL rotoinversion  theta= 90  r=( 0.0000e+00  1.0000e+00  0.0000e+00)    HM=-4    S=S4
+00000  MESSAGE PGROUP_XTAL rotoinversion  theta= 90  r=( 0.0000e+00  0.0000e+00  1.0000e+00)    HM=-4    S=S4
+00000  MESSAGE PGROUP_XTAL rotation       theta=240  r=(-5.7735e-01 -5.7735e-01  5.7735e-01)    HM= 3    S=C3
+00000  MESSAGE PGROUP_XTAL rotation       theta=180  r=(-7.4506e-09  1.0000e+00  7.4506e-09)    HM= 2    S=C2
+00000  MESSAGE PGROUP_XTAL rotoinversion  theta= 90  r=(-1.0000e+00  0.0000e+00  0.0000e+00)    HM=-4    S=S4
+00000  MESSAGE PGROUP_XTAL rotation       theta=240  r=( 5.7735e-01 -5.7735e-01  5.7735e-01)    HM= 3    S=C3
+00000  MESSAGE PGROUP_XTAL rotoinversion  theta= 90  r=( 0.0000e+00 -1.0000e+00  0.0000e+00)    HM=-4    S=S4
+00000  MESSAGE PGROUP_XTAL rotoinversion  theta= 90  r=( 1.0000e+00  0.0000e+00  0.0000e+00)    HM=-4    S=S4
+00000  MESSAGE PGROUP_XTAL rotation       theta=180  r=(-7.4506e-09 -7.4506e-09  1.0000e+00)    HM= 2    S=C2
+00000  MESSAGE PGROUP_XTAL rotoinversion  theta=180  r=( 7.0711e-01  7.4506e-09  7.0711e-01)    HM=-2    S=S2
+00000  MESSAGE PGROUP_XTAL rotation       theta=240  r=(-5.7735e-01  5.7735e-01  5.7735e-01)    HM= 3    S=C3
+00000  MESSAGE PGROUP_XTAL rotation       theta=120  r=(-5.7735e-01  5.7735e-01  5.7735e-01)    HM= 3    S=C3
+00000  MESSAGE PGROUP_XTAL rotoinversion  theta=180  r=( 7.0711e-01  7.0711e-01  7.4506e-09)    HM=-2    S=S2
+00000  MESSAGE PGROUP_XTAL ---------------------------------------------------------------------------
+00000  MESSAGE PGROUP_XTAL Symmetry: unique point group operations 24
+00000  MESSAGE PGROUP_XTAL Symmetry: 1 m m 3 3 m 2 m -4 3 3 -4 -4 3 2 -4 3 -4 -4 2 m 3 3 m
+00000  MESSAGE PGROUP_XTAL Symmetry: Crystal Family = cubic
+00000  MESSAGE PGROUP_XTAL Symmetry: Crystal System = cubic
+00000  MESSAGE PGROUP_XTAL Symmetry: Crystal Class = tetrahedral
+00000  MESSAGE PGROUP_XTAL Symmetry: Schoenflies notation = T_d
+00000  MESSAGE PGROUP_XTAL Symmetry: Hermann Mauguin notation = -43m
+00000  MESSAGE PGROUP_XTAL Symmetry: Orbifold = *332
+00000  MESSAGE PGROUP_XTAL Symmetry: Point Group Type = none
+00000  MESSAGE PGROUP_XTAL Symmetry: Point Group Order = 24
+00000  MESSAGE PGROUP_XTAL Symmetry: Point Group Structure = symmetric
+00000  MESSAGE PGROUP_XTAL ---------------------------------------------------------------------------
+00000  MESSAGE PGROUP_XTAL Symmetry: END 
+00000  MESSAGE PGROUP_XTAL ---------------------------------------------------------------------------
+00000  MESSAGE PGROUPK_XTAL Symmetry: BEGIN  - [dir=/scratch4/en510/hw_mysol/partIII/q6_a/AFLOWDATA/AsGa_hIn_d/AB_cF8_216_c_a.AB:POCC_P0-0.5xB-0.5xC_P1-1xA] - [user=en510-mkarumu1] - [host=login01] - [PID=836977] - [date=Thu Nov  6 19:11:34 2025] - [aflow_symmetry.cpp:5107]
+00000  MESSAGE PGROUPK_XTAL unity I        theta=  0  r=( 0.0000e+00  0.0000e+00  0.0000e+00)    HM= 1    S= 1
+00000  MESSAGE PGROUPK_XTAL rotoinversion  theta=180  r=( 7.4506e-09 -7.0711e-01  7.0711e-01)    HM=-2    S=S2
+00000  MESSAGE PGROUPK_XTAL rotoinversion  theta=180  r=(-7.0711e-01  7.0711e-01  7.4506e-09)    HM=-2    S=S2
+00000  MESSAGE PGROUPK_XTAL rotation       theta=240  r=( 5.7735e-01  5.7735e-01  5.7735e-01)    HM= 3    S=C3
+00000  MESSAGE PGROUPK_XTAL rotation       theta=120  r=( 5.7735e-01  5.7735e-01  5.7735e-01)    HM= 3    S=C3
+00000  MESSAGE PGROUPK_XTAL rotoinversion  theta=180  r=(-7.0711e-01 -7.4506e-09  7.0711e-01)    HM=-2    S=S2
+00000  MESSAGE PGROUPK_XTAL rotation       theta=180  r=(-1.0000e+00  7.4506e-09  7.4506e-09)    HM= 2    S=C2
+00000  MESSAGE PGROUPK_XTAL rotoinversion  theta=180  r=( 7.4506e-09  7.0711e-01  7.0711e-01)    HM=-2    S=S2
+00000  MESSAGE PGROUPK_XTAL rotoinversion  theta=270  r=(-0.0000e+00 -0.0000e+00  1.0000e+00)    HM=-4    S=S4
+00000  MESSAGE PGROUPK_XTAL rotation       theta=120  r=( 5.7735e-01 -5.7735e-01  5.7735e-01)    HM= 3    S=C3
+00000  MESSAGE PGROUPK_XTAL rotation       theta=120  r=(-5.7735e-01 -5.7735e-01  5.7735e-01)    HM= 3    S=C3
+00000  MESSAGE PGROUPK_XTAL rotoinversion  theta= 90  r=( 0.0000e+00  1.0000e+00  0.0000e+00)    HM=-4    S=S4
+00000  MESSAGE PGROUPK_XTAL rotoinversion  theta= 90  r=( 0.0000e+00  0.0000e+00  1.0000e+00)    HM=-4    S=S4
+00000  MESSAGE PGROUPK_XTAL rotation       theta=240  r=(-5.7735e-01 -5.7735e-01  5.7735e-01)    HM= 3    S=C3
+00000  MESSAGE PGROUPK_XTAL rotation       theta=180  r=(-7.4506e-09  1.0000e+00  7.4506e-09)    HM= 2    S=C2
+00000  MESSAGE PGROUPK_XTAL rotoinversion  theta= 90  r=(-1.0000e+00  0.0000e+00  0.0000e+00)    HM=-4    S=S4
+00000  MESSAGE PGROUPK_XTAL rotation       theta=240  r=( 5.7735e-01 -5.7735e-01  5.7735e-01)    HM= 3    S=C3
+00000  MESSAGE PGROUPK_XTAL rotoinversion  theta= 90  r=( 0.0000e+00 -1.0000e+00  0.0000e+00)    HM=-4    S=S4
+00000  MESSAGE PGROUPK_XTAL rotoinversion  theta= 90  r=( 1.0000e+00  0.0000e+00  0.0000e+00)    HM=-4    S=S4
+00000  MESSAGE PGROUPK_XTAL rotation       theta=180  r=(-7.4506e-09 -7.4506e-09  1.0000e+00)    HM= 2    S=C2
+00000  MESSAGE PGROUPK_XTAL rotoinversion  theta=180  r=( 7.0711e-01  7.4506e-09  7.0711e-01)    HM=-2    S=S2
+00000  MESSAGE PGROUPK_XTAL rotation       theta=240  r=(-5.7735e-01  5.7735e-01  5.7735e-01)    HM= 3    S=C3
+00000  MESSAGE PGROUPK_XTAL rotation       theta=120  r=(-5.7735e-01  5.7735e-01  5.7735e-01)    HM= 3    S=C3
+00000  MESSAGE PGROUPK_XTAL rotoinversion  theta=180  r=( 7.0711e-01  7.0711e-01  7.4506e-09)    HM=-2    S=S2
+00000  MESSAGE PGROUPK_XTAL Symmetry: unique point group operations 24
+00000  MESSAGE PGROUPK_XTAL Symmetry: END 
+00000  MESSAGE PGROUPK_PATTERSON Symmetry: BEGIN  - [dir=/scratch4/en510/hw_mysol/partIII/q6_a/AFLOWDATA/AsGa_hIn_d/AB_cF8_216_c_a.AB:POCC_P0-0.5xB-0.5xC_P1-1xA] - [user=en510-mkarumu1] - [host=login01] - [PID=836977] - [date=Thu Nov  6 19:11:35 2025] - [aflow_symmetry.cpp:2825]
+00000  MESSAGE PGROUPK_PATTERSON ---------------------------------------------------------------------------
+00000  MESSAGE PGROUPK_PATTERSON unity I        theta=  0  r=( 0.0000e+00  0.0000e+00  0.0000e+00)    HM= 1    S= 1
+00000  MESSAGE PGROUPK_PATTERSON inversion -I   theta=  0  r=( 0.0000e+00  0.0000e+00  0.0000e+00)    HM=-1    S= i
+00000  MESSAGE PGROUPK_PATTERSON rotoinversion  theta=180  r=( 7.4506e-09 -7.0711e-01  7.0711e-01)    HM=-2    S=S2
+00000  MESSAGE PGROUPK_PATTERSON rotation       theta=180  r=( 7.4506e-09 -7.0711e-01  7.0711e-01)    HM= 2    S=C2
+00000  MESSAGE PGROUPK_PATTERSON rotoinversion  theta=180  r=(-7.0711e-01  7.0711e-01  7.4506e-09)    HM=-2    S=S2
+00000  MESSAGE PGROUPK_PATTERSON rotation       theta=180  r=(-7.0711e-01  7.0711e-01  7.4506e-09)    HM= 2    S=C2
+00000  MESSAGE PGROUPK_PATTERSON rotation       theta=240  r=( 5.7735e-01  5.7735e-01  5.7735e-01)    HM= 3    S=C3
+00000  MESSAGE PGROUPK_PATTERSON rotoinversion  theta=240  r=( 5.7735e-01  5.7735e-01  5.7735e-01)    HM=-3    S=S3
+00000  MESSAGE PGROUPK_PATTERSON rotation       theta=120  r=( 5.7735e-01  5.7735e-01  5.7735e-01)    HM= 3    S=C3
+00000  MESSAGE PGROUPK_PATTERSON rotoinversion  theta=120  r=( 5.7735e-01  5.7735e-01  5.7735e-01)    HM=-3    S=S3
+00000  MESSAGE PGROUPK_PATTERSON rotoinversion  theta=180  r=(-7.0711e-01 -7.4506e-09  7.0711e-01)    HM=-2    S=S2
+00000  MESSAGE PGROUPK_PATTERSON rotation       theta=180  r=(-7.0711e-01 -7.4506e-09  7.0711e-01)    HM= 2    S=C2
+00000  MESSAGE PGROUPK_PATTERSON rotation       theta=180  r=(-1.0000e+00  7.4506e-09  7.4506e-09)    HM= 2    S=C2
+00000  MESSAGE PGROUPK_PATTERSON rotoinversion  theta=180  r=(-1.0000e+00  7.4506e-09  7.4506e-09)    HM= m    S= s
+00000  MESSAGE PGROUPK_PATTERSON rotoinversion  theta=180  r=( 7.4506e-09  7.0711e-01  7.0711e-01)    HM=-2    S=S2
+00000  MESSAGE PGROUPK_PATTERSON rotation       theta=180  r=( 7.4506e-09  7.0711e-01  7.0711e-01)    HM= 2    S=C2
+00000  MESSAGE PGROUPK_PATTERSON rotoinversion  theta=270  r=(-0.0000e+00 -0.0000e+00  1.0000e+00)    HM=-4    S=S4
+00000  MESSAGE PGROUPK_PATTERSON rotation       theta=270  r=(-0.0000e+00 -0.0000e+00  1.0000e+00)    HM= 4    S=C4
+00000  MESSAGE PGROUPK_PATTERSON rotation       theta=120  r=( 5.7735e-01 -5.7735e-01  5.7735e-01)    HM= 3    S=C3
+00000  MESSAGE PGROUPK_PATTERSON rotoinversion  theta=120  r=( 5.7735e-01 -5.7735e-01  5.7735e-01)    HM=-3    S=S3
+00000  MESSAGE PGROUPK_PATTERSON rotation       theta=120  r=(-5.7735e-01 -5.7735e-01  5.7735e-01)    HM= 3    S=C3
+00000  MESSAGE PGROUPK_PATTERSON rotoinversion  theta=120  r=(-5.7735e-01 -5.7735e-01  5.7735e-01)    HM=-3    S=S3
+00000  MESSAGE PGROUPK_PATTERSON rotoinversion  theta= 90  r=( 0.0000e+00  1.0000e+00  0.0000e+00)    HM=-4    S=S4
+00000  MESSAGE PGROUPK_PATTERSON rotation       theta= 90  r=( 0.0000e+00  1.0000e+00  0.0000e+00)    HM= 4    S=C4
+00000  MESSAGE PGROUPK_PATTERSON rotoinversion  theta= 90  r=( 0.0000e+00  0.0000e+00  1.0000e+00)    HM=-4    S=S4
+00000  MESSAGE PGROUPK_PATTERSON rotation       theta= 90  r=( 0.0000e+00  0.0000e+00  1.0000e+00)    HM= 4    S=C4
+00000  MESSAGE PGROUPK_PATTERSON rotation       theta=240  r=(-5.7735e-01 -5.7735e-01  5.7735e-01)    HM= 3    S=C3
+00000  MESSAGE PGROUPK_PATTERSON rotoinversion  theta=240  r=(-5.7735e-01 -5.7735e-01  5.7735e-01)    HM=-3    S=S3
+00000  MESSAGE PGROUPK_PATTERSON rotation       theta=180  r=(-7.4506e-09  1.0000e+00  7.4506e-09)    HM= 2    S=C2
+00000  MESSAGE PGROUPK_PATTERSON rotoinversion  theta=180  r=(-7.4506e-09  1.0000e+00  7.4506e-09)    HM= m    S= s
+00000  MESSAGE PGROUPK_PATTERSON rotoinversion  theta= 90  r=(-1.0000e+00  0.0000e+00  0.0000e+00)    HM=-4    S=S4
+00000  MESSAGE PGROUPK_PATTERSON rotation       theta= 90  r=(-1.0000e+00  0.0000e+00  0.0000e+00)    HM= 4    S=C4
+00000  MESSAGE PGROUPK_PATTERSON rotation       theta=240  r=( 5.7735e-01 -5.7735e-01  5.7735e-01)    HM= 3    S=C3
+00000  MESSAGE PGROUPK_PATTERSON rotoinversion  theta=240  r=( 5.7735e-01 -5.7735e-01  5.7735e-01)    HM=-3    S=S3
+00000  MESSAGE PGROUPK_PATTERSON rotoinversion  theta= 90  r=( 0.0000e+00 -1.0000e+00  0.0000e+00)    HM=-4    S=S4
+00000  MESSAGE PGROUPK_PATTERSON rotation       theta= 90  r=( 0.0000e+00 -1.0000e+00  0.0000e+00)    HM= 4    S=C4
+00000  MESSAGE PGROUPK_PATTERSON rotoinversion  theta= 90  r=( 1.0000e+00  0.0000e+00  0.0000e+00)    HM=-4    S=S4
+00000  MESSAGE PGROUPK_PATTERSON rotation       theta= 90  r=( 1.0000e+00  0.0000e+00  0.0000e+00)    HM= 4    S=C4
+00000  MESSAGE PGROUPK_PATTERSON rotation       theta=180  r=(-7.4506e-09 -7.4506e-09  1.0000e+00)    HM= 2    S=C2
+00000  MESSAGE PGROUPK_PATTERSON rotoinversion  theta=180  r=(-7.4506e-09 -7.4506e-09  1.0000e+00)    HM= m    S= s
+00000  MESSAGE PGROUPK_PATTERSON rotoinversion  theta=180  r=( 7.0711e-01  7.4506e-09  7.0711e-01)    HM=-2    S=S2
+00000  MESSAGE PGROUPK_PATTERSON rotation       theta=180  r=( 7.0711e-01  7.4506e-09  7.0711e-01)    HM= 2    S=C2
+00000  MESSAGE PGROUPK_PATTERSON rotation       theta=240  r=(-5.7735e-01  5.7735e-01  5.7735e-01)    HM= 3    S=C3
+00000  MESSAGE PGROUPK_PATTERSON rotoinversion  theta=240  r=(-5.7735e-01  5.7735e-01  5.7735e-01)    HM=-3    S=S3
+00000  MESSAGE PGROUPK_PATTERSON rotation       theta=120  r=(-5.7735e-01  5.7735e-01  5.7735e-01)    HM= 3    S=C3
+00000  MESSAGE PGROUPK_PATTERSON rotoinversion  theta=120  r=(-5.7735e-01  5.7735e-01  5.7735e-01)    HM=-3    S=S3
+00000  MESSAGE PGROUPK_PATTERSON rotoinversion  theta=180  r=( 7.0711e-01  7.0711e-01  7.4506e-09)    HM=-2    S=S2
+00000  MESSAGE PGROUPK_PATTERSON rotation       theta=180  r=( 7.0711e-01  7.0711e-01  7.4506e-09)    HM= 2    S=C2
+00000  MESSAGE PGROUPK_PATTERSON Symmetry: unique point group operations 48
+00000  MESSAGE PGROUPK_PATTERSON Symmetry: END 
+00000  MESSAGE POSCAR SGROUP: Default RADIUS=3  - [dir=/scratch4/en510/hw_mysol/partIII/q6_a/AFLOWDATA/AsGa_hIn_d/AB_cF8_216_c_a.AB:POCC_P0-0.5xB-0.5xC_P1-1xA] - [user=en510-mkarumu1] - [host=login01] - [PID=836977] - [date=Thu Nov  6 19:11:35 2025] - [aflow_aconvasp_main.cpp:6619]
+00000  MESSAGE SGROUP Symmetry: BEGIN  - [dir=/scratch4/en510/hw_mysol/partIII/q6_a/AFLOWDATA/AsGa_hIn_d/AB_cF8_216_c_a.AB:POCC_P0-0.5xB-0.5xC_P1-1xA] - [user=en510-mkarumu1] - [host=login01] - [PID=836977] - [date=Thu Nov  6 19:11:35 2025] - [aflow_symmetry.cpp:6558]
+00000  MESSAGE SGROUP Symmetry: inside sphere (radius=3, dims = [1,1,1])  - [dir=/scratch4/en510/hw_mysol/partIII/q6_a/AFLOWDATA/AsGa_hIn_d/AB_cF8_216_c_a.AB:POCC_P0-0.5xB-0.5xC_P1-1xA] - [user=en510-mkarumu1] - [host=login01] - [PID=836977] - [date=Thu Nov  6 19:11:35 2025] - [aflow_symmetry.cpp:6571]
+00000  MESSAGE SGROUP Symmetry: unique space group operations 648
+00000  MESSAGE SGROUP Symmetry: END 
+00000  MESSAGE IATOMS ATOMS:  BEGIN  - [dir=/scratch4/en510/hw_mysol/partIII/q6_a/AFLOWDATA/AsGa_hIn_d/AB_cF8_216_c_a.AB:POCC_P0-0.5xB-0.5xC_P1-1xA] - [user=en510-mkarumu1] - [host=login01] - [PID=836977] - [date=Thu Nov  6 19:11:35 2025] - [aflow_symmetry.cpp:6789]
+00000  MESSAGE IATOMS ATOMS: number of inequivalent atoms = 2   
+00000  MESSAGE IATOMS ATOMS: [00] 0 
+00000  MESSAGE IATOMS ATOMS: [01] 1 
+00000  MESSAGE IATOMS ATOMS: END 
+00000  MESSAGE AGROUP Symmetry: BEGIN  - [dir=/scratch4/en510/hw_mysol/partIII/q6_a/AFLOWDATA/AsGa_hIn_d/AB_cF8_216_c_a.AB:POCC_P0-0.5xB-0.5xC_P1-1xA] - [user=en510-mkarumu1] - [host=login01] - [PID=836977] - [date=Thu Nov  6 19:11:35 2025] - [aflow_symmetry.cpp:7062]
+00000  MESSAGE AGROUP ---------------------------------------------------------------------------
+00000  MESSAGE AGROUP [site=00] ineq atom #=0
+00000  MESSAGE AGROUP [site=00] unity I        theta=  0  r=( 0.0000e+00  0.0000e+00  0.0000e+00)    HM= 1    S= 1
+00000  MESSAGE AGROUP [site=00] rotoinversion  theta=180  r=( 7.4506e-09 -7.0711e-01  7.0711e-01)    HM=-2    S=S2
+00000  MESSAGE AGROUP [site=00] rotoinversion  theta=180  r=(-7.0711e-01  7.0711e-01  7.4506e-09)    HM=-2    S=S2
+00000  MESSAGE AGROUP [site=00] rotation       theta=240  r=( 5.7735e-01  5.7735e-01  5.7735e-01)    HM= 3    S=C3
+00000  MESSAGE AGROUP [site=00] rotation       theta=120  r=( 5.7735e-01  5.7735e-01  5.7735e-01)    HM= 3    S=C3
+00000  MESSAGE AGROUP [site=00] rotoinversion  theta=180  r=(-7.0711e-01 -7.4506e-09  7.0711e-01)    HM=-2    S=S2
+00000  MESSAGE AGROUP [site=00] rotation       theta=180  r=(-1.0000e+00  7.4506e-09  7.4506e-09)    HM= 2    S=C2
+00000  MESSAGE AGROUP [site=00] rotoinversion  theta=180  r=( 7.4506e-09  7.0711e-01  7.0711e-01)    HM=-2    S=S2
+00000  MESSAGE AGROUP [site=00] rotoinversion  theta=270  r=(-0.0000e+00 -0.0000e+00  1.0000e+00)    HM=-4    S=S4
+00000  MESSAGE AGROUP [site=00] rotation       theta=120  r=( 5.7735e-01 -5.7735e-01  5.7735e-01)    HM= 3    S=C3
+00000  MESSAGE AGROUP [site=00] rotation       theta=120  r=(-5.7735e-01 -5.7735e-01  5.7735e-01)    HM= 3    S=C3
+00000  MESSAGE AGROUP [site=00] rotoinversion  theta= 90  r=( 0.0000e+00  1.0000e+00  0.0000e+00)    HM=-4    S=S4
+00000  MESSAGE AGROUP [site=00] rotoinversion  theta= 90  r=( 0.0000e+00  0.0000e+00  1.0000e+00)    HM=-4    S=S4
+00000  MESSAGE AGROUP [site=00] rotation       theta=240  r=(-5.7735e-01 -5.7735e-01  5.7735e-01)    HM= 3    S=C3
+00000  MESSAGE AGROUP [site=00] rotation       theta=180  r=(-7.4506e-09  1.0000e+00  7.4506e-09)    HM= 2    S=C2
+00000  MESSAGE AGROUP [site=00] rotoinversion  theta= 90  r=(-1.0000e+00  0.0000e+00  0.0000e+00)    HM=-4    S=S4
+00000  MESSAGE AGROUP [site=00] rotation       theta=240  r=( 5.7735e-01 -5.7735e-01  5.7735e-01)    HM= 3    S=C3
+00000  MESSAGE AGROUP [site=00] rotoinversion  theta= 90  r=( 0.0000e+00 -1.0000e+00  0.0000e+00)    HM=-4    S=S4
+00000  MESSAGE AGROUP [site=00] rotoinversion  theta= 90  r=( 1.0000e+00  0.0000e+00  0.0000e+00)    HM=-4    S=S4
+00000  MESSAGE AGROUP [site=00] rotation       theta=180  r=(-7.4506e-09 -7.4506e-09  1.0000e+00)    HM= 2    S=C2
+00000  MESSAGE AGROUP [site=00] rotoinversion  theta=180  r=( 7.0711e-01  7.4506e-09  7.0711e-01)    HM=-2    S=S2
+00000  MESSAGE AGROUP [site=00] rotation       theta=240  r=(-5.7735e-01  5.7735e-01  5.7735e-01)    HM= 3    S=C3
+00000  MESSAGE AGROUP [site=00] rotation       theta=120  r=(-5.7735e-01  5.7735e-01  5.7735e-01)    HM= 3    S=C3
+00000  MESSAGE AGROUP [site=00] rotoinversion  theta=180  r=( 7.0711e-01  7.0711e-01  7.4506e-09)    HM=-2    S=S2
+00000  MESSAGE AGROUP [site=00] unique site point group operations 24 (#pg_xtal=24)  
+00000  MESSAGE AGROUP ---------------------------------------------------------------------------
+00000  MESSAGE AGROUP [site=01] ineq atom #=1
+00000  MESSAGE AGROUP [site=01] unity I        theta=  0  r=( 0.0000e+00  0.0000e+00  0.0000e+00)    HM= 1    S= 1
+00000  MESSAGE AGROUP [site=01] rotoinversion  theta=180  r=( 7.4506e-09 -7.0711e-01  7.0711e-01)    HM=-2    S=S2
+00000  MESSAGE AGROUP [site=01] rotoinversion  theta=180  r=(-7.0711e-01  7.0711e-01  7.4506e-09)    HM=-2    S=S2
+00000  MESSAGE AGROUP [site=01] rotation       theta=240  r=( 5.7735e-01  5.7735e-01  5.7735e-01)    HM= 3    S=C3
+00000  MESSAGE AGROUP [site=01] rotation       theta=120  r=( 5.7735e-01  5.7735e-01  5.7735e-01)    HM= 3    S=C3
+00000  MESSAGE AGROUP [site=01] rotoinversion  theta=180  r=(-7.0711e-01 -7.4506e-09  7.0711e-01)    HM=-2    S=S2
+00000  MESSAGE AGROUP [site=01] rotation       theta=180  r=(-1.0000e+00  7.4506e-09  7.4506e-09)    HM= 2    S=C2
+00000  MESSAGE AGROUP [site=01] rotoinversion  theta=180  r=( 7.4506e-09  7.0711e-01  7.0711e-01)    HM=-2    S=S2
+00000  MESSAGE AGROUP [site=01] rotoinversion  theta=270  r=(-0.0000e+00 -0.0000e+00  1.0000e+00)    HM=-4    S=S4
+00000  MESSAGE AGROUP [site=01] rotation       theta=120  r=( 5.7735e-01 -5.7735e-01  5.7735e-01)    HM= 3    S=C3
+00000  MESSAGE AGROUP [site=01] rotation       theta=120  r=(-5.7735e-01 -5.7735e-01  5.7735e-01)    HM= 3    S=C3
+00000  MESSAGE AGROUP [site=01] rotoinversion  theta= 90  r=( 0.0000e+00  1.0000e+00  0.0000e+00)    HM=-4    S=S4
+00000  MESSAGE AGROUP [site=01] rotoinversion  theta= 90  r=( 0.0000e+00  0.0000e+00  1.0000e+00)    HM=-4    S=S4
+00000  MESSAGE AGROUP [site=01] rotation       theta=240  r=(-5.7735e-01 -5.7735e-01  5.7735e-01)    HM= 3    S=C3
+00000  MESSAGE AGROUP [site=01] rotation       theta=180  r=(-7.4506e-09  1.0000e+00  7.4506e-09)    HM= 2    S=C2
+00000  MESSAGE AGROUP [site=01] rotoinversion  theta= 90  r=(-1.0000e+00  0.0000e+00  0.0000e+00)    HM=-4    S=S4
+00000  MESSAGE AGROUP [site=01] rotation       theta=240  r=( 5.7735e-01 -5.7735e-01  5.7735e-01)    HM= 3    S=C3
+00000  MESSAGE AGROUP [site=01] rotoinversion  theta= 90  r=( 0.0000e+00 -1.0000e+00  0.0000e+00)    HM=-4    S=S4
+00000  MESSAGE AGROUP [site=01] rotoinversion  theta= 90  r=( 1.0000e+00  0.0000e+00  0.0000e+00)    HM=-4    S=S4
+00000  MESSAGE AGROUP [site=01] rotation       theta=180  r=(-7.4506e-09 -7.4506e-09  1.0000e+00)    HM= 2    S=C2
+00000  MESSAGE AGROUP [site=01] rotoinversion  theta=180  r=( 7.0711e-01  7.4506e-09  7.0711e-01)    HM=-2    S=S2
+00000  MESSAGE AGROUP [site=01] rotation       theta=240  r=(-5.7735e-01  5.7735e-01  5.7735e-01)    HM= 3    S=C3
+00000  MESSAGE AGROUP [site=01] rotation       theta=120  r=(-5.7735e-01  5.7735e-01  5.7735e-01)    HM= 3    S=C3
+00000  MESSAGE AGROUP [site=01] rotoinversion  theta=180  r=( 7.0711e-01  7.0711e-01  7.4506e-09)    HM=-2    S=S2
+00000  MESSAGE AGROUP [site=01] unique site point group operations 24 (#pg_xtal=24)  
+00000  MESSAGE AGROUP ---------------------------------------------------------------------------
+00000  MESSAGE AGROUP SYMMETRY: propagating to equivalent sites
+00000  MESSAGE AGROUP ---------------------------------------------------------------------------
+00000  MESSAGE AGROUP number of inequivalent atoms = 2   
+00000  MESSAGE AGROUP [00] 0(24) 
+00000  MESSAGE AGROUP [01] 1(24) 
+00000  MESSAGE AGROUP Symmetry: END  - [dir=/scratch4/en510/hw_mysol/partIII/q6_a/AFLOWDATA/AsGa_hIn_d/AB_cF8_216_c_a.AB:POCC_P0-0.5xB-0.5xC_P1-1xA] - [user=en510-mkarumu1] - [host=login01] - [PID=836977] - [date=Thu Nov  6 19:11:35 2025] - [aflow_symmetry.cpp:7189]
+00000  MESSAGE KBIN::getAflowInFromDirectory(): Using input file: /scratch4/en510/hw_mysol/partIII/q6_a/AFLOWDATA/AsGa_hIn_d/AB_cF8_216_c_a.AB:POCC_P0-0.5xB-0.5xC_P1-1xA/aflow.in - [dir=/scratch4/en510/hw_mysol/partIII/q6_a/AFLOWDATA/AsGa_hIn_d/AB_cF8_216_c_a.AB:POCC_P0-0.5xB-0.5xC_P1-1xA/] - [user=en510-mkarumu1] - [host=login01] - [PID=836977] - [date=Thu Nov  6 19:11:35 2025] - [aflow_kbin.cpp:314]
+00000  MESSAGE KBIN::getAflowInFromDirectory(): AflowIn.size()=13509 - [dir=/scratch4/en510/hw_mysol/partIII/q6_a/AFLOWDATA/AsGa_hIn_d/AB_cF8_216_c_a.AB:POCC_P0-0.5xB-0.5xC_P1-1xA/] - [user=en510-mkarumu1] - [host=login01] - [PID=836977] - [date=Thu Nov  6 19:11:35 2025] - [aflow_kbin.cpp:317]
+00000  MESSAGE pocc::POccCalculator::writePARTCAR(): Writing out PARTCAR - [dir=/scratch4/en510/hw_mysol/partIII/q6_a/AFLOWDATA/AsGa_hIn_d/AB_cF8_216_c_a.AB:POCC_P0-0.5xB-0.5xC_P1-1xA] - [user=en510-mkarumu1] - [host=login01] - [PID=836977] - [date=Thu Nov  6 19:11:35 2025] - [aflow_pocc.cpp:4604]
+00000  MESSAGE pocc::POccCalculator::calculateHNF(): Fetching HNF value - [dir=/scratch4/en510/hw_mysol/partIII/q6_a/AFLOWDATA/AsGa_hIn_d/AB_cF8_216_c_a.AB:POCC_P0-0.5xB-0.5xC_P1-1xA] - [user=en510-mkarumu1] - [host=login01] - [PID=836977] - [date=Thu Nov  6 19:11:35 2025] - [aflow_pocc.cpp:8683]
+00000  MESSAGE pocc::POccCalculator::calculateHNF(): Stoichiometry tolerance = 0.001 - [dir=/scratch4/en510/hw_mysol/partIII/q6_a/AFLOWDATA/AsGa_hIn_d/AB_cF8_216_c_a.AB:POCC_P0-0.5xB-0.5xC_P1-1xA] - [user=en510-mkarumu1] - [host=login01] - [PID=836977] - [date=Thu Nov  6 19:11:35 2025] - [aflow_pocc.cpp:8713]
+00000  MESSAGE pocc::POccCalculator::calculateHNF(): Site tolerance = 0.001 - [dir=/scratch4/en510/hw_mysol/partIII/q6_a/AFLOWDATA/AsGa_hIn_d/AB_cF8_216_c_a.AB:POCC_P0-0.5xB-0.5xC_P1-1xA] - [user=en510-mkarumu1] - [host=login01] - [PID=836977] - [date=Thu Nov  6 19:11:35 2025] - [aflow_pocc.cpp:8714]
+00000  MESSAGE pocc::POccCalculator::calculateHNF(): Optimizing HNF value - [dir=/scratch4/en510/hw_mysol/partIII/q6_a/AFLOWDATA/AsGa_hIn_d/AB_cF8_216_c_a.AB:POCC_P0-0.5xB-0.5xC_P1-1xA] - [user=en510-mkarumu1] - [host=login01] - [PID=836977] - [date=Thu Nov  6 19:11:35 2025] - [aflow_pocc.cpp:8715]
+[AFLOW] ************************************************************************************************************************** 
+   n  ----- |    pocc_atom = 1/2 [Ga_h]     |    pocc_atom = 2/2 [In_d]      | site_error | stoich_error 
+   1  1.000 |    0/1    0.000 (err = 0.500) |    0/1    0.000 (err = 0.500)  | 0.500      | 0.500        
+   2  0.500 |    1/2    0.500 (err = 0.000) |    1/2    0.500 (err = 0.000)  | 0.000      | 0.000        
+[AFLOW] ************************************************************************************************************************** 
+00000  MESSAGE pocc::POccCalculator::calculateHNF(): Optimized HNF value = 2 - [dir=/scratch4/en510/hw_mysol/partIII/q6_a/AFLOWDATA/AsGa_hIn_d/AB_cF8_216_c_a.AB:POCC_P0-0.5xB-0.5xC_P1-1xA] - [user=en510-mkarumu1] - [host=login01] - [PID=836977] - [date=Thu Nov  6 19:11:35 2025] - [aflow_pocc.cpp:8732]
+00000  MESSAGE pocc::POccCalculator::getTotalPermutationsCount(): Getting total number of supercell decoration permutations - [dir=/scratch4/en510/hw_mysol/partIII/q6_a/AFLOWDATA/AsGa_hIn_d/AB_cF8_216_c_a.AB:POCC_P0-0.5xB-0.5xC_P1-1xA] - [user=en510-mkarumu1] - [host=login01] - [PID=836977] - [date=Thu Nov  6 19:11:35 2025] - [aflow_pocc.cpp:5031]
+00000  MESSAGE pocc::POccCalculator::getTotalPermutationsCount(): Total count of unique HNF matrices = 2 - [dir=/scratch4/en510/hw_mysol/partIII/q6_a/AFLOWDATA/AsGa_hIn_d/AB_cF8_216_c_a.AB:POCC_P0-0.5xB-0.5xC_P1-1xA] - [user=en510-mkarumu1] - [host=login01] - [PID=836977] - [date=Thu Nov  6 19:11:35 2025] - [aflow_pocc.cpp:5063]
+00000  MESSAGE pocc::POccCalculator::getTotalPermutationsCount(): Total count of unique types-configuration permutations = 2 - [dir=/scratch4/en510/hw_mysol/partIII/q6_a/AFLOWDATA/AsGa_hIn_d/AB_cF8_216_c_a.AB:POCC_P0-0.5xB-0.5xC_P1-1xA] - [user=en510-mkarumu1] - [host=login01] - [PID=836977] - [date=Thu Nov  6 19:11:35 2025] - [aflow_pocc.cpp:5097]
+00000  MESSAGE pocc::POccCalculator::getTotalPermutationsCount(): Total number of supercell decoration permutations = 4 - [dir=/scratch4/en510/hw_mysol/partIII/q6_a/AFLOWDATA/AsGa_hIn_d/AB_cF8_216_c_a.AB:POCC_P0-0.5xB-0.5xC_P1-1xA] - [user=en510-mkarumu1] - [host=login01] - [PID=836977] - [date=Thu Nov  6 19:11:35 2025] - [aflow_pocc.cpp:5126]
+00000  MESSAGE pocc::POccCalculator::calculate(): Calculating unique supercells. Please be patient - [dir=/scratch4/en510/hw_mysol/partIII/q6_a/AFLOWDATA/AsGa_hIn_d/AB_cF8_216_c_a.AB:POCC_P0-0.5xB-0.5xC_P1-1xA] - [user=en510-mkarumu1] - [host=login01] - [PID=836977] - [date=Thu Nov  6 19:11:35 2025] - [aflow_pocc.cpp:5818]
+CCCCC  COMPLETE pocc::POccCalculator::calculate(): Calculated 2 unique supercells - [dir=/scratch4/en510/hw_mysol/partIII/q6_a/AFLOWDATA/AsGa_hIn_d/AB_cF8_216_c_a.AB:POCC_P0-0.5xB-0.5xC_P1-1xA] - [user=en510-mkarumu1] - [host=login01] - [PID=836977] - [date=Thu Nov  6 19:11:35 2025] - [aflow_pocc.cpp:6124]
+00000  MESSAGE pocc::POccCalculator::calculate(): Structure bin 1: energy=18.734587, degeneracy=2 - [dir=/scratch4/en510/hw_mysol/partIII/q6_a/AFLOWDATA/AsGa_hIn_d/AB_cF8_216_c_a.AB:POCC_P0-0.5xB-0.5xC_P1-1xA] - [user=en510-mkarumu1] - [host=login01] - [PID=836977] - [date=Thu Nov  6 19:11:35 2025] - [aflow_pocc.cpp:6133]
+00000  MESSAGE pocc::POccCalculator::calculate(): Structure bin 2: energy=18.734594, degeneracy=2 - [dir=/scratch4/en510/hw_mysol/partIII/q6_a/AFLOWDATA/AsGa_hIn_d/AB_cF8_216_c_a.AB:POCC_P0-0.5xB-0.5xC_P1-1xA] - [user=en510-mkarumu1] - [host=login01] - [PID=836977] - [date=Thu Nov  6 19:11:35 2025] - [aflow_pocc.cpp:6133]
+00000  MESSAGE pocc::POccCalculator::calculate(): Resorting unique supercell order by HNF matrix/site configuration indices - [dir=/scratch4/en510/hw_mysol/partIII/q6_a/AFLOWDATA/AsGa_hIn_d/AB_cF8_216_c_a.AB:POCC_P0-0.5xB-0.5xC_P1-1xA] - [user=en510-mkarumu1] - [host=login01] - [PID=836977] - [date=Thu Nov  6 19:11:35 2025] - [aflow_pocc.cpp:6145]
+00000  MESSAGE pocc::POccCalculator::writePreProcessing(): Writing out hnf_matrices.out - [dir=/scratch4/en510/hw_mysol/partIII/q6_a/AFLOWDATA/AsGa_hIn_d/AB_cF8_216_c_a.AB:POCC_P0-0.5xB-0.5xC_P1-1xA] - [user=en510-mkarumu1] - [host=login01] - [PID=836977] - [date=Thu Nov  6 19:11:35 2025] - [aflow_pocc.cpp:6171]
+00000  MESSAGE pocc::POccCalculator::writePreProcessing(): Writing out site_configurations.out - [dir=/scratch4/en510/hw_mysol/partIII/q6_a/AFLOWDATA/AsGa_hIn_d/AB_cF8_216_c_a.AB:POCC_P0-0.5xB-0.5xC_P1-1xA] - [user=en510-mkarumu1] - [host=login01] - [PID=836977] - [date=Thu Nov  6 19:11:35 2025] - [aflow_pocc.cpp:6186]
+00000  MESSAGE pocc::POccCalculator::writePreProcessing(): Writing out structures_all.out. Please be patient. - [dir=/scratch4/en510/hw_mysol/partIII/q6_a/AFLOWDATA/AsGa_hIn_d/AB_cF8_216_c_a.AB:POCC_P0-0.5xB-0.5xC_P1-1xA] - [user=en510-mkarumu1] - [host=login01] - [PID=836977] - [date=Thu Nov  6 19:11:35 2025] - [aflow_pocc.cpp:6220]
+00000  MESSAGE pocc::POccCalculator::writePreProcessing(): Writing out structures_unique.out - [dir=/scratch4/en510/hw_mysol/partIII/q6_a/AFLOWDATA/AsGa_hIn_d/AB_cF8_216_c_a.AB:POCC_P0-0.5xB-0.5xC_P1-1xA] - [user=en510-mkarumu1] - [host=login01] - [PID=836977] - [date=Thu Nov  6 19:11:35 2025] - [aflow_pocc.cpp:6267]
