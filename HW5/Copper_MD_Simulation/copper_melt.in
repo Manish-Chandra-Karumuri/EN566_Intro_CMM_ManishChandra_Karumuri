@@ -1,0 +1,83 @@
+# Course: EN566 Materials Modeling 2025
+# Instructor: Dr. Corey Oses
+# Homework 5 Part 1 Question 2
+# LAMMPS Input for Cu Melting and Cooling with EAM
+
+#########################################
+###############	variables ###############
+
+variable			 tem equal 293.15 							 # desired temperature (K)
+# UPDATED: Variable kept for reference, but explicit values used in fixes below as per guidance
+variable			 tem_s equal 1700                            
+variable	      pre equal 1                     # desired pressure (Atm)
+
+variable        dt equal 0.001
+variable        Tdamp equal 100.0*${dt}		     # units are time units
+variable        Pdamp equal 1000.0*${dt}		   # units are time units
+
+# ----------------- Initialize Simulation ---------------------
+units		metal 												 # style of units (A, ps, eV)
+dimension 3
+boundary	p p p
+atom_style atomic
+
+lattice fcc 3.615 orient x 1 0 0 orient y 0 1 0 orient z 0 0 1
+region box block 0 10 0 10 0 10 units lattice
+create_box 1 box
+create_atoms 1 box
+mass 1 63.546  					# Cu atomic mass
+
+# FIX 1: Change to eam/fs for the Cu1.eam.fs file
+pair_style eam/fs
+pair_coeff * * Cu1.eam.fs Cu
+
+# Compute CNA for visualization (FCC=1, HCP=2, BCC=3, Other=5)
+compute 1 all cna/atom 3.09
+
+# ----------------- Settings ---------------------
+neighbor 2.0 bin
+neigh_modify delay 5 every 1 check yes
+
+thermo 1000
+thermo_style    custom step temp press pe ke etotal vol density
+
+# ---------- Equilibration Settings ---------------------
+
+reset_timestep 0
+timestep	${dt} 			# (ps)
+
+# Dump trajectory for visualization
+dump 1 all custom 1000 dump.cu.lammpstrj id type x y z c_1
+
+# Equilibration at 300 K (NVT)
+velocity all create ${tem} 12345 mom yes rot yes dist gaussian
+fix eq1 all nvt temp ${tem} ${tem} ${Tdamp} drag 0.1
+run 10000
+unfix eq1
+
+fix	eq2 all npt temp ${tem} ${tem} ${Tdamp} iso ${pre} ${pre} ${Pdamp}
+run 10000
+write_data cu_eq1.data
+
+# Heating to melt (ramp to 1700 K)
+unfix eq2
+# MODIFIED: Increased temp to 1700 K and steps to 1400000 (1 K/ps rate)
+fix heat all npt temp ${tem} 1700.0 ${Tdamp} iso ${pre} ${pre} ${Pdamp}
+run 1400000
+unfix heat
+
+# Hold at high temperature to ensure melt
+# MODIFIED: Increased hold temp to 1700 K
+fix hold all npt temp 1700.0 1700.0 ${Tdamp} iso ${pre} ${pre} ${Pdamp}
+run 10000
+unfix hold
+
+write_data cu_heated.data
+
+# Cooling back to 300 K
+# MODIFIED: Cooling from 1700 K back to 300 K
+fix cool all npt temp 1700.0 ${tem} ${Tdamp} iso ${pre} ${pre} ${Pdamp}
+run 1400000
+unfix cool
+
+write_data cu_final.data

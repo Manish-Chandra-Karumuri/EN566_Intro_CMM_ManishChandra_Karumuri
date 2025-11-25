@@ -1,0 +1,89 @@
+# EN566 Materials Modeling - HW5 Water Simulation
+# SPC/E Water Model at 373 K (100 C)
+
+# ----------------- Init Section -----------------
+units           real
+atom_style      full
+boundary        p p p
+
+# Define Box (25 Angstrom cubic box)
+region          sim_box block 0 25 0 25 0 25
+
+create_box      2 sim_box bond/types 1 angle/types 1 &
+                extra/bond/per/atom 2 extra/angle/per/atom 1 &
+                extra/special/per/atom 2
+
+# Define Molecule (reads your water.data)
+molecule        water_mol water.data
+
+# ----------------- Atom Definitions -----------------
+# Type 1 = Oxygen, Type 2 = Hydrogen (Matches water.data)
+mass            1 15.9994
+mass            2 1.008
+
+# ----------------- Create Atoms -----------------
+# 0 = Use type from molecule file
+# random 500 12345 sim_box = 500 mols, position seed, region
+# mol water_mol 54321 = Use template 'water_mol', orientation seed
+# overlap 2.0 = Prevent atoms from spawning on top of each other
+create_atoms    0 random 500 12345 sim_box mol water_mol 54321 overlap 2.0
+
+# ----------------- Force Field -----------------
+pair_style      lj/cut/coul/long 10.0
+kspace_style    pppm 1.0e-4
+
+# Pair Coeffs (Type 1=O, Type 2=H)
+pair_coeff      1 1 0.1553 3.166   # O-O interaction
+pair_coeff      1 2 0.0    0.0     # O-H
+pair_coeff      2 2 0.0    0.0     # H-H
+
+# Bond/Angle parameters (from your class notes)
+bond_style      harmonic
+bond_coeff      1 554.1349  1.000
+
+angle_style     harmonic
+angle_coeff     1 45.7696   109.47
+
+# Charges
+set type 1 charge -0.8476
+set type 2 charge 0.4238
+
+# ----------------- Settings -----------------
+group           water type 1 2
+
+# Neighbor list settings
+neighbor        2.0 bin
+neigh_modify    delay 0 every 1 check yes
+
+# ----------------- Simulation Settings -----------------
+# CHANGED: Target Temperature to 373.0
+variable        T equal 373.0
+variable        P equal 1.0
+variable        dt equal 2.0
+
+timestep        ${dt}
+
+thermo          100
+thermo_style    custom step temp press vol density pe etotal
+
+# ----------------- 1. Energy Minimization -----------------
+# SHAKE is OFF during minimization to prevent segfaults
+minimize        1.0e-4 1.0e-6 100 1000
+reset_timestep  0
+
+# ----------------- 2. NVT Equilibration -----------------
+# Turn on SHAKE now for dynamics
+fix             myshake water shake 0.0001 20 0 b 1 a 1
+
+velocity        all create $T 12345 mom yes rot yes dist gaussian
+fix             mynvt all nvt temp $T $T 100.0
+run             2000
+unfix           mynvt
+
+# ----------------- 3. NPT Production -----------------
+# Relax density at 373 K
+fix             mynpt all npt temp $T $T 100.0 iso $P $P 1000.0
+
+run             20000
+
+write_data      water_373K_final.data
